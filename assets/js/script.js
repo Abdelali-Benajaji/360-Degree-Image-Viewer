@@ -21,7 +21,7 @@
 
         // Load your 360 image
         const textureLoader = new THREE.TextureLoader();
-        textureLoader.load('assets/images/tomas-cocacola-CSho4ziiwLo-unsplash.jpg', function (texture) {
+        textureLoader.load('assets/images/image.jpg', function (texture) {
             const material = new THREE.MeshBasicMaterial({ map: texture });
             sphere = new THREE.Mesh(geometry, material);
             scene.add(sphere);
